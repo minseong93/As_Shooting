@@ -8,6 +8,8 @@ public class EnemyBullet : Bullet
     {
         if (collision.tag != "Enemy" && collision.tag != "Bullet")
         {
+            IDamageAble damageAble = collision.GetComponent<IDamageAble>();
+            damageAble?.Damage();
             GlobalPoolManager.ReturnBullet(this, PatternType);
             bulletPatternManager.DeleteBullet(this);
             gameObject.SetActive(false);

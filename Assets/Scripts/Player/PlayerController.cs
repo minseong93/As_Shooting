@@ -21,6 +21,8 @@ public class PlayerController : Player
     }
     public override void Damage()
     {
-        
+        currenthealth--;
+        if (currenthealth == 0)
+            UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
     }
 }

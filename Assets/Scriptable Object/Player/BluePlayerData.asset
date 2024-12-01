@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3783c2da85070bf4983d18dac35dff6a, type: 3}
   m_Name: BluePlayerData
   m_EditorClassIdentifier: 
-  hp: 12
+  health: 10
   speed: 4
   attackSpeed: 1
   bulletType: 2

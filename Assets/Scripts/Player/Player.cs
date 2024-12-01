@@ -6,7 +6,7 @@ public abstract class Player : MonoBehaviour, IDamageAble
 {    
      private Vector3 setVec;
     [SerializeField] protected PlayerData playerData;
-
+    protected int currenthealth;
     protected virtual void Start()
     {
         PlayerEvent playerEvent = GetComponent<PlayerEvent>();
@@ -19,6 +19,10 @@ public abstract class Player : MonoBehaviour, IDamageAble
             playerEvent.OnInputMouse += OnMouseEvent;
             playerEvent.OnClickMouse += OnMouseClickEvent;
         }
+    }
+    private void OnEnable()
+    {
+        currenthealth = playerData.Health;
     }
     public abstract void Damage();
     protected abstract void OnMoveEvent(Vector3 velocityVec);

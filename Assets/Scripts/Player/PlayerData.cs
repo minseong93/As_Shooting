@@ -4,8 +4,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Player Data", menuName = "Scriptable Object/Player Data", order = int.MaxValue)]
 public class PlayerData : ScriptableObject
 {
-    [SerializeField]private int hp;
-    public int Hp { get { return hp; } }
+    [SerializeField]private int health;
+    public int Health { get { return health; } }
     [SerializeField] private float speed;
     public float Speed { get { return speed; } }
     [SerializeField] private float attackSpeed;
