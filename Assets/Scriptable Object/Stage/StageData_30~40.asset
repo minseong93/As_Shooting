@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e476f84ecd0994e4580c3d949e5e99b0, type: 3}
+  m_Name: StageData_30~40
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 6559880965860863037, guid: 73e3451661283f6458eb358ac6892a63, type: 3}
+  - {fileID: 8683566504129979377, guid: 05b6dbb001b0cc544b08ee8781967a5e, type: 3}
+  - {fileID: 5979515197392565855, guid: a3010f5d6fde83b448cc5cf8dcf8af52, type: 3}
+  - {fileID: -4688718344859561839, guid: 0ea095e8fbbd2334a81b2c1c3d1f0cf2, type: 3}
+  - {fileID: 6559880965860863037, guid: 8683844df8c96874abfb799926415681, type: 3}
+  - {fileID: 8683566504129979377, guid: df73cbfd60234d24ca75158405b261df, type: 3}
+  - {fileID: 7281282709371054430, guid: 1bffc84878e886f47bf9268eb7b35894, type: 3}
+  - {fileID: -97517629825739129, guid: fac561fe8f14b654aa5d36b5a41cad1c, type: 3}
+  enemiesNum: 4
